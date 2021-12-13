@@ -1,0 +1,18 @@
+.board {
+	width: 820px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.board div{
+	height: 100px;
+	width: 100px;
+	border: 1px solid red;
+}
+.white {
+	background-color: aliceblue;
+}
+.black {
+	background-color: black;
+}
