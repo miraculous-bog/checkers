@@ -16,3 +16,8 @@
 .black {
 	background-color: black;
 }
+.shadow {
+	-webkit-box-shadow: 4px 7px 40px 29px rgba(225, 30, 30, 0.5) inset;
+-moz-box-shadow: 4px 7px 40px 29px rgba(225, 30, 30, 0.5) inset;
+box-shadow: 4px 7px 40px 29px rgba(225, 30, 30, 0.5) inset;
+}
