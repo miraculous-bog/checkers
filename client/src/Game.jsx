@@ -15,7 +15,8 @@ const colorMap = {
   3: 'red',
   4: 'black',
 };
-
+console.log(Row);
+console.log(Col);
 export default function Game({
   leaveGame,
   movePiece,
@@ -76,7 +77,7 @@ export default function Game({
                     className={classNames('piece', {
                       selected: isPieceSelected(i, j),
                       red: piece === 1,
-                      black: piece === 2,
+                      black: piece === 2 ,
                       blackQueen: piece === 4,
                       redQueen: piece === 3,
                       clickable: color === getColor(piece),
